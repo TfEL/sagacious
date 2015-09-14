@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D2F1F056D78569EC5E485DEEBE45A14E083C69A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D2F1F056D78569EC5E485DEEBE45A14E083C69A3" : 0,
+    "A87F0AC372C2946F9AA3E2B83BD0ACA9A12B3F0F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC4FA3C6-B080-413D-AF14-C4AABC5BCCB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D2F1F056D78569EC5E485DEEBE45A14E083C69A3" : "Sagacious\/",
+    "A87F0AC372C2946F9AA3E2B83BD0ACA9A12B3F0F" : "Sagacious\/workspace\/HandBrake\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sagacious",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sagacious.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HandBrake\/HandBrake",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A87F0AC372C2946F9AA3E2B83BD0ACA9A12B3F0F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TfEL\/sagacious.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2F1F056D78569EC5E485DEEBE45A14E083C69A3"
+    }
+  ]
+}

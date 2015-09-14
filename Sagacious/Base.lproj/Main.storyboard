@@ -340,13 +340,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="295"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-f2-A19">
-                                <rect key="frame" x="17" y="122" width="446" height="26"/>
-                                <animations/>
-                                <pathCell key="cell" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="iwJ-gJ-brC">
-                                    <font key="font" metaFont="system"/>
-                                </pathCell>
-                            </pathControl>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22Z-wS-LIF">
                                 <rect key="frame" x="18" y="154" width="239" height="17"/>
                                 <animations/>
@@ -412,6 +405,13 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-f2-A19">
+                                <rect key="frame" x="17" y="122" width="446" height="26"/>
+                                <animations/>
+                                <pathCell key="cell" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="iwJ-gJ-brC">
+                                    <font key="font" metaFont="system"/>
+                                </pathCell>
+                            </pathControl>
                         </subviews>
                         <animations/>
                     </view>

@@ -1,0 +1,3 @@
+[submodule "workspace/HandBrake"]
+	path = workspace/HandBrake
+	url = https://github.com/HandBrake/HandBrake

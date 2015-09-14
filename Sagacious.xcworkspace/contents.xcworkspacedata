@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:workspace/HandBrake/macosx/HandBrake.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Sagacious.xcodeproj">
    </FileRef>
    <FileRef
