@@ -335,7 +335,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainView" id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="295"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -366,13 +366,13 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="Icg-FF-dYU" kind="sheet" id="GKi-Hf-p68"/>
+                                    <action selector="convertPressed:" target="XfG-lQ-9wD" id="cfc-2z-jE9"/>
                                 </connections>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eO5-NH-weh">
                                 <rect key="frame" x="30" y="52" width="99" height="18"/>
                                 <animations/>
-                                <buttonCell key="cell" type="check" title="Back up first" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="uo3-gr-kNr">
+                                <buttonCell key="cell" type="check" title="Back up first" bezelStyle="regularSquare" imagePosition="left" enabled="NO" state="on" inset="2" id="uo3-gr-kNr">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -415,6 +415,10 @@
                         </subviews>
                         <animations/>
                     </view>
+                    <connections>
+                        <outlet property="backupButton" destination="eO5-NH-weh" id="Pg9-sP-JH4"/>
+                        <outlet property="filePath" destination="rSi-f2-A19" id="r8b-79-W9a"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -423,7 +427,7 @@
         <!--View Controller-->
         <scene sceneID="5Yn-dm-Che">
             <objects>
-                <viewController id="Icg-FF-dYU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="progressView" showSeguePresentationStyle="single" id="Icg-FF-dYU" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="q5i-a1-tti">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="172"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -484,6 +488,12 @@
                         </subviews>
                         <animations/>
                     </view>
+                    <connections>
+                        <outlet property="majorProgress" destination="nUG-iU-DLP" id="PTa-pa-JlT"/>
+                        <outlet property="mediaFileLabel" destination="IJR-HU-iZz" id="Bku-7M-uZb"/>
+                        <outlet property="minorProgress" destination="naP-vA-vG3" id="9kr-zr-RbS"/>
+                        <outlet property="progressText" destination="SPf-Ay-LTI" id="SGb-y3-yom"/>
+                    </connections>
                 </viewController>
                 <customObject id="DTG-U6-LE9" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
