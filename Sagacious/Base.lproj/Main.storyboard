@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
@@ -318,10 +318,9 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Sagacious" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="QT PowerPoint Media Compressor" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="597" y="389" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -337,11 +336,11 @@
             <objects>
                 <viewController storyboardIdentifier="mainView" id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="295"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="334"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22Z-wS-LIF">
-                                <rect key="frame" x="18" y="154" width="239" height="17"/>
+                                <rect key="frame" x="18" y="193" width="239" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Select your Microsoft® PowerPoint file:" id="4JQ-fF-XU8">
                                     <font key="font" metaFont="system"/>
@@ -350,7 +349,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2GD-fg-WLq">
-                                <rect key="frame" x="18" y="86" width="56" height="17"/>
+                                <rect key="frame" x="18" y="125" width="56" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Options:" id="o5f-nO-ZxK">
                                     <font key="font" metaFont="system"/>
@@ -370,7 +369,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eO5-NH-weh">
-                                <rect key="frame" x="30" y="52" width="99" height="18"/>
+                                <rect key="frame" x="30" y="101" width="99" height="18"/>
                                 <animations/>
                                 <buttonCell key="cell" type="check" title="Back up first" bezelStyle="regularSquare" imagePosition="left" enabled="NO" state="on" inset="2" id="uo3-gr-kNr">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -378,40 +377,66 @@
                                 </buttonCell>
                             </button>
                             <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="GzA-52-N5d">
-                                <rect key="frame" x="0.0" y="109" width="480" height="5"/>
+                                <rect key="frame" x="0.0" y="148" width="480" height="5"/>
                                 <animations/>
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <font key="titleFont" metaFont="system"/>
                             </box>
                             <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hcl-du-7E7">
-                                <rect key="frame" x="0.0" y="177" width="480" height="5"/>
+                                <rect key="frame" x="0.0" y="216" width="480" height="5"/>
                                 <animations/>
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <font key="titleFont" metaFont="system"/>
                             </box>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrO-Tm-uml">
-                                <rect key="frame" x="0.0" y="180" width="480" height="115"/>
+                                <rect key="frame" x="0.0" y="219" width="480" height="115"/>
                                 <animations/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="bottom" image="pilot_ls" id="h1F-YS-28t"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abd-gt-0F7">
-                                <rect key="frame" x="6" y="188" width="272" height="17"/>
+                                <rect key="frame" x="6" y="227" width="216" height="17"/>
                                 <animations/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sagacious – PowerPoint Media Compressor" id="LLD-rO-85G">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="QT PowerPoint Media Compressor" id="LLD-rO-85G">
                                     <font key="font" metaFont="systemMedium" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-f2-A19">
-                                <rect key="frame" x="17" y="122" width="446" height="26"/>
+                                <rect key="frame" x="17" y="161" width="446" height="26"/>
                                 <animations/>
                                 <pathCell key="cell" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="iwJ-gJ-brC">
                                     <font key="font" metaFont="system"/>
                                 </pathCell>
                             </pathControl>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-mU-jRR">
+                                <rect key="frame" x="30" y="71" width="433" height="26"/>
+                                <animations/>
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="RhX-kY-mtC">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="6GA-tf-Kvc">
+                                        <items>
+                                            <menuItem title="Low Quality: AVAssetExportPresetLowQuality (360p, 12&quot;)" id="KJN-mq-l4Z"/>
+                                            <menuItem title="Medium Quality: AVAssetExportPresetMediumQuality (567p, 30&quot;)" id="gb2-ll-hle"/>
+                                            <menuItem title="Higher Quality: AVAssetExportPresetHighestQuality (HD [720/1080], 50&quot;) " id="GRb-gP-TCe"/>
+                                            <menuItem title="High Quality: AVAssetExportPresetHighestQuality (HD [1080p], 55&quot;+)" id="AY6-0G-iiI"/>
+                                            <menuItem title="UltraHD: AVAssetExportPresetHighestQuality AVAssetExportPreset3840x2160 (UHD, 55&quot;+) *" id="B95-8P-WRd"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Wa-0v-w3t">
+                                <rect key="frame" x="30" y="54" width="354" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="* You cannot upscale to UHD content, source must match" id="DXY-LJ-s7G">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="secondarySelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <animations/>
                     </view>
@@ -422,7 +447,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="667.5"/>
+            <point key="canvasLocation" x="75" y="687"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Yn-dm-Che">

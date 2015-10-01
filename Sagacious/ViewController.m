@@ -187,6 +187,8 @@ NSArray *contents;
         minorProgress.doubleValue = 0.0;
         NSLog(@"At final stage, compress new pptx...");
         
+        // Re compress the archive - but we'll need to purge the cached versions (god only knows why it actually does that on lowmem systems)
+        
         ZZArchive* newArchive = [[ZZArchive alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@_Compressed.pptx", [originalFile URLByDeletingPathExtension]]]
                                                        options:@{ZZOpenOptionsCreateIfMissingKey : @YES}
                                                          error:nil];
